@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travelapp</title>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= javascript_include_tag 'application' %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCUuX1g_iICJKGMcCQwROTrQ_ywf31-_M&callback=initMap"></script>
+</body>
+</html>
